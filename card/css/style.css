@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* serviesc */
+
+.serviesc .row .img{
+    position: relative;
+}
+.serviesc .row .img::after{
+    content: " 50%";
+    position: absolute;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(213, 43, 13);
+    z-index: 1;
+    top: 10px;
+    right: 15px;
+    border-radius: 50%;
+}
+.serviesc .row .img img{
+    border-top-left-radius:9px ;
+    border-top-right-radius:9px ;
+}
+.serviesc .bot .btn{
+    background-color: red;
+    margin: 18px 0 13px;
+    padding: 4px 12px;
+    color: #fff;
+}
+.serviesc .bot .start svg{
+    color: red;
+    padding: 0 2px;
+    margin-left:180px ;
+}
+@media(max-width:992px){
+.serviesc .bot .start svg{
+        margin-left:90px ;
+    }
+}
+@media(max-width:590px){
+    .serviesc .bot .start svg{
+        margin-left:340px;
+    }
+}
+ @media(max-width:520px){
+    .serviesc .bot .start svg{
+        margin-left:180px ;
+
+    }
+} 
+.serviesc .icon {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+}
+.serviesc .icon span{
+    font-size: 13px;
+    margin: 0 8px;
+
+}
+.serviesc .icon span i{
+    font-size: 15px;
+}
+.serviesc .icon span i svg{
+    color: blue;
+    font-size: 13px;
+}
+.log-in img{
+    border-radius: 50%;
+    border: 5px solid rgb(140, 140, 159);
+}
+.log-in h5{
+    font-size: 15px;
+    margin: 6px;
+}
+.log-in .bag{
+    color: blue;
+    font-size: 20px;
+    background-color: rgb(206, 206, 236);
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media(max-width:992px){
+    .log-in .bag{
+        margin-left:90px ;
+
+    }
+}
+@media(max-width:590px){
+    .log-in .bag{
+        margin-left:300px ;
+
+    }
+}
+@media(max-width:520px){
+    .log-in .bag{
+        margin-left:180px ;
+
+    }
+} 
+/* btn */
+.container .all .btn{
+    border: 1px solid blue;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: blue;
+    padding: 6px 12px;
+}
